@@ -1,0 +1,14 @@
+p{
+  font-family: Montserrat;
+  text-align: center;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 0;
+}
+
+.link{
+  font-size: 18px;
+}
