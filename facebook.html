@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+  <title>Facebook</title>
+  <style>
+    p{
+      font-family: Arial;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .friend-grid{
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+      column-gap: 20px;
+    }
+
+    .friend-container{
+      width: 200px;
+      border: none;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+      margin-right: 15px;
+      vertical-align: top;
+    }
+
+    .friend-profile-img{
+      width: 100%;
+    }
+
+    .friend-name{
+      font-size: 30px;
+      font-weight: bold;
+      margin-left: 8px;
+      margin-bottom: 10px;
+    }
+
+    .friend-details-grid{
+      display: grid;
+      grid-template-columns: 35px 1fr;
+      margin-left: 8px;
+      margin-bottom: 10px;
+      align-items: center;
+    }
+
+    .profile-img{
+      width: 100%;
+      border-radius: 50%;
+    }
+
+    .mutual-details{
+      margin-left: 10px;
+      font-size: 18px;
+      color: gray;
+    }
+
+    .add-friend-button{
+      margin-left: 8px;
+      margin-bottom: 10px;
+      height: 50px;
+      width: 150px;
+      padding: 10px;
+      background-color: #1877f2;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="friend-grid">
+    
+    <div class="friend-container">
+      <div>
+        <img class="friend-profile-img" src="profiles/channel-1.jpeg">
+        <p class="friend-name">Oliver</p>
+      </div>
+      <div class="friend-details-grid">
+        <img class="profile-img"src="profiles/channel-12.jpeg">
+        <p class="mutual-details">2 mutual friends</p>
+      </div>
+      <div>
+        <button class="add-friend-button">Add Friend</button>
+      </div>
+    </div>
+
+    <div class="friend-container">
+      <div>
+        <img class="friend-profile-img" src="profiles/channel-2.jpeg">
+        <p class="friend-name">Mimi</p>
+      </div>
+      <div class="friend-details-grid">
+        <img class="profile-img"src="profiles/channel-12.jpeg">
+        <p class="mutual-details">3 mutual friends</p>
+      </div>
+      <div>
+        <button class="add-friend-button">Add Friend</button>
+      </div>
+    </div>
+
+    <div class="friend-container">
+      <div>
+        <img class="friend-profile-img" src="profiles/channel-3.jpeg">
+        <p class="friend-name">Rex</p>
+      </div>
+      <div class="friend-details-grid">
+        <img class="profile-img"src="profiles/channel-12.jpeg">
+        <p class="mutual-details">4 mutual friends</p>
+      </div>
+      <div>
+        <button class="add-friend-button">Add Friend</button>
+      </div>
+    </div>
+
+
+
+  </div>
+</body>
