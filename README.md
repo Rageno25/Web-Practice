@@ -1,1 +1,1 @@
-Just learning Web Frontend Basics
+Just reviewing Web Frontend Basics
